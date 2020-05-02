@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registrarse | E-Sport</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<!-- Encabezado -->
+	<header class="header">
+		<a href="index.html"><img src="img/E-Sport.png"width="200" height="200"/></a>
+		<div id="encabezado">
+		<div id="logo">
+		</div>
+	</header>
+
+	<form action="insert.php" method="POST">
+	<h2 style="color: black;"> REGISTRARSE</h2>
+	<label style="font-family: Raleway; font-weight: bold;">INGRESAR NOMBRE:</label>
+	<input type="text" placeholder="&#128100; Nombre" name="nombre" required>
+	<label>INGRESAR EMAIL:</label>
+	<input type="email" placeholder="&#128231; Email" name="email" required>
+	<label>INGRESAR TELEFONO:</label>
+	<input type="text" placeholder="&#9743; Telefono" name="telefono" required>
+	<label>INGRESAR USUARIO:</label>
+	<input type="text" placeholder="&#128100; Usuario" name="usuario" required>
+	<label>INGRESAR CLAVE:</label>
+	<input type="password" placeholder="&#128273; Clave"name="clave" required>
+	<label>CONFIRMAR CLAVE:</label>
+	<input type="password" placeholder="&#128273; Confirmar clave"name="Confirmar clave">
+	<input type="submit" value="REGISTRARSE">
+	</form>
+
+	<button id="volver" class="float-left submit-button" >Volver</button>
+
+<script type="text/javascript">
+    document.getElementById("volver").onclick = function volveraInicio () {
+        location.href = "index.html";
+    };
+</script>
+
+</body>
+</html>
+		
