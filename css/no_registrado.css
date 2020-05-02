@@ -1,0 +1,271 @@
+* {
+	padding: 0;
+}
+
+header {
+	background: rgb(23, 124, 192);
+	width: auto;
+	height: 150px;
+	box-shadow: 0px 0px 30px #80B3D4;
+	border-bottom-style: solid;
+	border-bottom-color: #585858;
+	border-bottom-width: 5px;
+	margin-top: -1%;
+	margin-right: -0.3%;
+	margin-left: -0.3%;
+}
+
+#encabezado {
+	width: 90%;
+	height: 30%;
+	margin: auto;
+	border:0px solid #000;
+	margin-top: 30px;
+}
+
+#logo {
+	width: 50px;
+	height: 50px;
+	float: left;
+	color: #020603;
+	font-size: 30px;
+	margin-top: 30px;
+}
+
+#menu{
+	width: 70%;
+	height: 40px;
+	float: right;
+	border:0px solid;
+	margin-top: 55px;
+    margin-bottom: 50px;
+    margin-left: 100%;
+	font-family: 'Raleway', sans-serif;
+}
+
+/* Con este tag se modifica la posición y demás del menú!*/
+
+#menu ul {
+	font-size: 18px;
+	margin-top: -15%;
+    margin-bottom: 50px;
+    margin-right: -5%;
+    font-family: 'Raleway', sans-serif;
+    float: right;
+}
+
+#menu ul li {
+	
+	list-style: none;
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 18px;
+	margin-right: 5px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#menu ul li .enlace {
+	color: rgb(0, 0, 0);
+	background-color: azure;
+	border-radius: 8px;
+	text-decoration: initial;
+	padding: 25px;
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#menu ul li .enlace:hover {
+	background: #22b9f5;
+	color: rgb(207, 250, 250);
+	border-radius: 5px 5px 0px 0px;
+	font-family: 'Raleway', sans-serif;
+}
+
+body {
+	background-image: url('estadio.jpg');  
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Raleway', sans-serif;
+}
+
+#principal {
+	width: 80%;
+	height: auto; overflow: hidden;
+	border:0px solid;
+	margin: 10px auto;
+}
+
+#publicaciones {
+	width: 70%;
+	height: auto;overflow: hidden;
+	border:0px solid red;
+	margin-top: 10px;
+	float:left;
+	font-family: 'Raleway', sans-serif;
+}
+
+.post {
+	width: 99%;
+	height:auto; overflow: hidden;
+	padding: 7px;
+	background: #fdfdfd;
+	border-left-style:solid;
+	border-left-width: 5px;
+	border-left-color: #8E928F;
+	border-radius: 10px;
+	box-shadow: 0px 0px 15px #ccc;
+	margin-bottom: 15px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#publicaciones a .titulo-post {
+	color: #6e6e6e;
+	font-size: 22px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#publicaciones a .titulo-post:hover {
+	text-decoration: underline;
+	font-family: 'Raleway', sans-serif;
+}
+
+#publicaciones .img-post {
+	width: 150px;
+	height: 150px;
+	float:left;
+	margin-top: 7px 7px 7px 0px;
+	padding: 5px;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#publicaciones .datos-publicaciones {
+	font-family: 'Raleway', sans-serif;
+	color: #80B3D4;
+}
+
+#publicaciones .parrafo-post {
+	font-family: 'Raleway', sans-serif;
+	font-size:16px;
+	color:#848484;
+	padding: 5px;
+}
+
+#publicaciones .leer-mas {
+	background: #80B3D4;
+	color: #fff;
+	border:0px;
+	padding: 5px;
+	text-decoration: none;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
+#sidebar {
+	float: right;
+	width: 28%;
+	border: 1px solid;
+	height: auto;
+	overflow: hidden;
+}
+
+#img-encabezado {
+	width: 20px;
+	height: 80px;
+}
+
+form {
+	margin: auto;
+	width: 70%;
+	max-width: 500px;
+	background: #80B3D4;
+	padding: 30px;
+	border: 1px solid rgba(0,0,0,0.2);
+}
+
+img {
+    display: inline-block;
+    border-radius: 8px;
+    padding: 0%;
+    margin: 0%;
+    -moz-box-shadow: 10px 5px 5px#0000;
+    -webkit-box-shadow: 10px 5px 5px #0000;
+    box-shadow: 10px 5px 5px #0000;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 15px;
+}
+
+h1 {
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 2%;
+    margin-left: 1%;
+    color: azure;
+    display: block;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 20px;
+	color: rgba(0,0,0,0.5);
+}
+
+input {
+	display: block;
+	padding: 10px;
+	width: 200px;
+	margin: 38px 0;
+	font-size: 20px;
+}
+
+input [type="submit"] {
+	background: linear-gradient(#FFDA63, #FF89);
+	border: 0;
+	color: brown;
+	opacity: pointer;
+	border-radius:20px;
+	margin-bottom: 0;
+}
+
+input[type="submit"]:hover {
+	opacity: 1;
+}
+
+input[type="submit"]:active {
+	transform: scale(0.95);
+}
+
+@media(max-width: 768px) {
+	form {
+		width: 75%;
+	}
+
+}
+
+#guayo {
+	width: 400px;
+	height: 300px;
+	margin: 13% 0 1% 23%;
+	
+	
+
+
+}
+
+button {
+    background-color: lightcoral;
+    border: lightsalmon;
+    color: azure;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 50%;
+    margin-right: 5%;
+	cursor: pointer;
+	text-align: center;
+  	margin: 0% 0 0 23%;
+  	display: inline-block;
+  }
